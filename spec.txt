@@ -1,0 +1,18 @@
+Intial:
+X 3 pages - search, image search, adv search
+Style in CSS
+
+Index:
+Copy Google UI: search bar should be centered with rounded corners.
+The search button should also be centered, and should be beneath the search bar.
+X 2 links on search - image and adv in upper right corner
+X I'm feeling lucky button. Go to first search result
+
+Adv & Img search:
+X 1 link on image and adv each - back to search in upper right corner
+X Filters on adv search page:
+    Find pages with… “all these words:”
+    Find pages with… “this exact word or phrase:”
+    Find pages with… “any of these words:”
+    Find pages with… “none of these words:”
+    Copy Google UI for this

@@ -1,0 +1,28 @@
+.logo {
+    text-align: center;
+    font-size: 70px;
+    color: blue;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.logo > div {
+    font-size:24px;
+}
+
+body, input, button {
+    font-size: 14px;
+    font-family: roboto, arial;
+    margin: 5px
+}
+
+.tabs {
+    text-align: right;
+}
+
+.bar {
+    width: 500px;
+    height: 50px;
+    border-radius:30px;
+}
