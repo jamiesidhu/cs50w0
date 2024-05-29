@@ -3,15 +3,16 @@
     <head>
         <title>Image Search</title>
         <link rel="stylesheet" href="googics.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <div class="tabs">
-            <div>
-                <a href="index.html">Home</a>
-            </div>
+            <ul class="list-inline">
+                <li><a href="index.html">Home</a></li>
+            </ul>
         </div>
-        <center>
+        <div class="mainthing">
             <div class="logo">
                 Google
                 <div>Images</div>
@@ -22,9 +23,9 @@
                     <input type="hidden" name="udm" value="2">
                 </div>
                 <div>
-                    <input type="submit" value="Search Images">
+                    <input type="submit" class="btn btn-light" value="Search Images">
                 </div>
             </form>
-        </center>
+        </div>
     </body>
 </html>

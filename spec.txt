@@ -3,8 +3,8 @@ X 3 pages - search, image search, adv search
 Style in CSS
 
 Index:
-Copy Google UI: search bar should be centered with rounded corners.
-The search button should also be centered, and should be beneath the search bar.
+X Copy Google UI: search bar should be centered with rounded corners.
+X The search button should also be centered, and should be beneath the search bar.
 X 2 links on search - image and adv in upper right corner
 X I'm feeling lucky button. Go to first search result
 

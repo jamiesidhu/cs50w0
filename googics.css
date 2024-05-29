@@ -3,8 +3,7 @@
     font-size: 70px;
     color: blue;
     font-weight: bold;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    padding: 50px;
 }
 
 .logo > div {
@@ -18,11 +17,41 @@ body, input, button {
 }
 
 .tabs {
-    text-align: right;
+    float: right;
+    display: flex;
+    margin: 10px;
 }
 
+
 .bar {
-    width: 500px;
+    width: 50vh;
     height: 50px;
     border-radius:30px;
+    margin: 30px;
+}
+
+.advbar {
+    width: 50vh;
+}
+
+.mainthing {
+    padding: 50px;
+    margin:auto;
+    text-align: center;
+}
+
+.advsearch {
+    padding: 50px;
+}
+
+.row {
+    display: flex;
+}
+
+.left {
+    width: 20%;
+}
+
+.row {
+    padding-bottom: 20px;
 }

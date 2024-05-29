@@ -3,31 +3,32 @@
     <head>
         <title>Search</title>
         <link rel="stylesheet" href="googics.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         
         <div class="tabs">
-            <div>
-                <a href="gimage.html">Image Search</a>
+            <ul class="list-inline">
+                <li><a href="gimage.html">Image Search</a></li>
+                <li><a href="gadv.html">Advanced Search</a></li>
+            </ul>
+        </div>
+        <div class="mainthing">
+            <div class ="logo">
+                Google
             </div>
-            <div>
-                <a href="gadv.html">Advanced Search</a>
+            <div class="container">
+                <form action="https://www.google.com/search">
+                    <div>
+                        <input type="text" class="bar" name="q">
+                    </div>
+                    <div>
+                        <input type="submit" class="btn btn-light" value="Google Search" name="btnK">
+                        <input type="submit" class="btn btn-light" value="I'm Feeling Lucky" name="btnI">
+                    </div>
+                </form>
             </div>
         </div>
-        <center>
-            <div class ="logo">
-                    Google
-            </div>
-        <form action="https://www.google.com/search">
-            <div>
-                <input type="text" class="bar" name="q">
-            </div>
-            <div>
-                <input type="submit" value="Google Search" name="btnK">
-                <input type="submit" value="I'm Feeling Lucky" name="btnI">
-            </div>
-        </form>
-        </center>
     </body>
 </html>

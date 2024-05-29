@@ -3,13 +3,14 @@
     <head>
         <title>Advanced Search</title>
         <link rel="stylesheet" href="googics.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <div class="tabs">
-            <div>
-                <a href="index.html">Home</a>
-            </div>
+            <ul class="list-inline">
+                <li><a href="index.html">Home</a></li>
+            </ul>
         </div>
         <div class="logo">
             Google
@@ -17,31 +18,54 @@
                 Advanced Search
             </div>
         </div>
-        <div>
-            Find pages with...
-        </div>
-        <div>
+        <div class="advsearch container">
             <form action="https://www.google.com/search">
-            <div>
-                all these words:
-                <input type="text" name="as_q">
+            <div class="container">
+                <div class="row">
+                    Find pages with...
+                </div>
+                <div class="row">
+                    <div class="column left">
+                        all these words:
+                    </div>
+                    <div class="column">
+                        <input type="text" class="advbar" name="as_q">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column left">
+                        this exact word or phrase:
+                    </div>
+                    <div class="column">
+                        <input type="text" class="advbar" name="as_epq">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column left">
+                        any of these words:
+                    </div>
+                    <div class="column">
+                        <input type="text" class="advbar" name="as_oq">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column left">
+                        none of these words:
+                    </div>
+                    <div class="column">
+                        <input type="text" class="advbar" name="as_eq">
+                    </div>
+                </div>
+                <div class ="row">
+                    <div class="column left">
+        
+                    </div>
+                    <div class = "column">
+                        <input type="submit" class="btn btn-primary" value="Advanced Search">
+                    </div>
+                </div>
             </div>
-            <div>
-                this exact word or phrase:
-                <input type="text" name="as_epq">
-            </div>
-            <div>
-                any of these words:
-                <input type="text" name="as_oq">
-            </div>
-            <div>
-                none of these words:
-                <input type="text" name="as_eq">
-            </div>
-            <div>
-                <input type="submit" value="Advanced Search">
-            </div>
-            </form>
+        </form>
         </div>
     </body>
 </html>
